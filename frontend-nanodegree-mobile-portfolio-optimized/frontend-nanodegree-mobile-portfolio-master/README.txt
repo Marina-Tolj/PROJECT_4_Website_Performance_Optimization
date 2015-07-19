@@ -1,0 +1,20 @@
+Project 4: Website optimization
+To run the website: download folder “frontend-nanodegree-mobile-portfolio-optimized”, and open index.html in your browser.
+Optimization steps taken:
+In the index.html:
+•	render blocking print.css has and added media="print"
+•	style.css has been in lined
+•	web font is now in the in lined style
+•	perfmatters.js in now async and minified. 
+All images have been compressed using https://tinypng.com/.
+
+Views folder:
+In the pizza.html:
+•	Added <meta name="viewport" content="width=device-width"> and <meta name="viewport" content="initial-scale=1">.
+•	In lined style.css
+•	Minified bootstrap-grid.css
+In the main.js:
+•	Changed document.querySelectorAll() to document.getElementsByClassName() for speed optimization
+•	Reduced the number of pizzas that load on the screen from 200 to 30
+•	(in the js folder I left both minified version of main.js and the version with comments, only minified version is being used for the website)
+All images have been compressed using https://tinypng.com/.
