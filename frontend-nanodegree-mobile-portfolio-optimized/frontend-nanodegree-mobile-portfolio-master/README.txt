@@ -15,6 +15,9 @@ In the pizza.html:
 •	Minified bootstrap-grid.css
 In the main.js:
 •	Changed document.querySelectorAll() to document.getElementsByClassName() for speed optimization
-•	Reduced the number of pizzas that load on the screen from 200 to 30
+•	Reduced the number of pizzas that load on the screen from 200 to 48
+•	Declared pizzasDiv variable outside the loop, so the function only makes one DOM call
+•	Declared phase variable (var move;) outside the loop , so it is not created every time the loop is executed
+•	Declared elem variable (var elem;)  outside the loop , so it is not created every time the loop is executed
 •	(in the js folder I left both minified version of main.js and the version with comments, only minified version is being used for the website)
 All images have been compressed using https://tinypng.com/.
